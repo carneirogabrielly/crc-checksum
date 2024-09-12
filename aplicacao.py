@@ -36,18 +36,20 @@ def main():
         com1.enable()
         print("Abriu a comunicação")
         
-        #prevenção de erros
-        time.sleep(.2)
-        com1.sendData(b'00')
-        time.sleep(1)   
+        #-------prevenção de erro -----------#
+        # time.sleep(.2)
+        # com1.sendData(b'00')
+        #------------------------------------#
+        
+        com1.rx.clearBuffer()
+        time.sleep(1)           
                 
-                
-                
-                
-         ##### VERIFICAR SE O SERVIDOR ESTÁ VIVO #####
+        ##### VERIFICAR SE O SERVIDOR ESTÁ VIVO #####
         print("Verificando se o servidor está vivo")
         # Espera resposta do servidor
         pacote0 = make_pack_server(True)
+        com1.sendData(pacote0)
+        
         verifica = True
         start_time = time.time()
         while verifica:
@@ -85,34 +87,36 @@ def main():
                 #vou enviar o pacote
                 
                 #------------------------ erro ordem do pacote ---------------------------------#
-                com1.sendData(pacotes[i+1])
-                # com1.sendData(pacotes[i])
+                # com1.sendData(pacotes[i+1])
+                com1.sendData(pacotes[i])
+                time.sleep(0.2)
                 #------------------------------------------------------------------------------#
                 #esperar a resposta
                 #pegar o head
-                
-                
+
                 #### ------------------ tentativa de A+ -------------------------------#
-                print(com1.rx.getBufferLen())
+                
                 time0 = time.time()
                 while (com1.rx.getBufferLen() < 15):
+                    # print(com1.rx.getBufferLen())
                     atraso1 = time.time() - time0
                     if atraso1 > 2:
                         com1.sendData(pacotes[i])
                         time.sleep(1)
+                        time0 = time.time()
+                        
                    
                     
                 #----------------------------------------------------------------------#
-                if com1.rx.getBufferLen() >= 15:    
-                    head, _, eop = carrega_pacote(com1)
-                    #verificar o head
-                    if head[3] == 0:
-                        print("Pacote {} enviado com sucesso" .format(i+1))
-                    else:
-                        print(f"Erro com o pacote {i+1}")
-                        verifica = False
-                        break
-                    
+                head, _, eop = carrega_pacote(com1)
+                #verificar o head
+                if head[3] == 0:
+                    print("Pacote {} enviado com sucesso" .format(i+1))
+                else:
+                    print(f"Erro com o pacote {i+1}")
+                    verifica = False
+                    break
+                
             verifica = False
             
         # Encerra comunicação
