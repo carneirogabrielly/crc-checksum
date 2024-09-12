@@ -12,8 +12,9 @@
 
 from enlace import *
 import time
-import numpy as nps
+import numpy as np
 from utils import *
+from enlaceRx import *
 
 # voce deverá descomentar e configurar a porta com através da qual ira fazer comunicaçao
 #   para saber a sua porta, execute no terminal :
@@ -23,102 +24,82 @@ from utils import *
 #use uma das 3 opcoes para atribuir à variável a porta usada
 #serialName = "/dev/ttyACM0"           # Ubuntu (variacao de)
 #serialName = "/dev/tty.usbmodem1411" # Mac    (variacao de)
-serialName = "COM4"                  # Windows(variacao de)
+serialName = "COM3"                  # Windows(variacao de)
 
-imageR = "imgs/image.png"
-
+imageW = 'imgs/img.png'
 def main():
     try:
         print("Iniciou o main")
         com1 = enlace(serialName)
+        
     
         # Ativa comunicacao. Inicia os threads e a comunicação seiral 
         com1.enable()
         print("Abriu a comunicação")
         
         #-------prevenção de erro -----------#
-        # time.sleep(.2)
-        # com1.sendData(b'00')
+        # print("esperando 1 byte de sacrifício")
+        # rxBuffer, nRx = com1.getData(1)
         #------------------------------------#
         
         com1.rx.clearBuffer()
-        time.sleep(1)           
-                
-        ##### VERIFICAR SE O SERVIDOR ESTÁ VIVO #####
-        print("Verificando se o servidor está vivo")
-        # Espera resposta do servidor
-        pacote0 = make_pack_server(True)
-        com1.sendData(pacote0)
-        
-        verifica = True
-        start_time = time.time()
-        while verifica:
+           
+       #-------- VERIFICANDO SE ESTÁ ATIVO ------------
+        handshake = True
+        while handshake:
             tam = com1.rx.getBufferLen()
-            atraso = time.time() - start_time
+            time.sleep(1)
             if tam >= 1:
-                print("Servidor está ativo.")
-                break
-            else:
-                if atraso >= 5:
-                    resposta = input("Servidor Inativo. Tentar novamente? s/n?").lower()
-                    if resposta == 's':
-                        com1.sendData(pacote0)  ###vai substituir pelo pacote
-                        print("Verificando se o servidor está vivo")
-                        start_time = time.time()
-                    elif resposta == 'n':
-                        print("Encerrando comunicação")
-                        com1.disable()
-                        verifica = False
-                        
+                print("Recebi mensagem do cliente")
+                print("Enviando confirmação de atividade")
+                com1.sendData(make_pack_server(True))
+                handshake = False
+                
         com1.rx.clearBuffer()
+        #---------RECEBENDO AS MENSAGENS -------------
+        lista_payload = []
+        contador = 1
+        recebendo = True
         
-        #aqui você deverá gerar os dados a serem transmitidos. 
-        
-        #txBuffer = imagem em bytes!
-        mensagem = open(imageR, 'rb').read()
-        
-        #########AQUI VOU CHAMAR A FUNÇÃO QUE CRIA OS PACOTES#########
-        #Vai me devolver uma lista de pacotes
-        fragmentos = fragmenta(mensagem)
-        pacotes = make_pack(fragmentos)
-        
-        while verifica:
-            for i in range(len(pacotes)):
-                #vou enviar o pacote
-                
-                #------------------------ erro ordem do pacote ---------------------------------#
-                # com1.sendData(pacotes[i+1])
-                com1.sendData(pacotes[i])
-                time.sleep(0.2)
-                #------------------------------------------------------------------------------#
-                #esperar a resposta
-                #pegar o head
-
-                #### ------------------ tentativa de A+ -------------------------------#
-                
-                time0 = time.time()
-                while (com1.rx.getBufferLen() < 15):
-                    # print(com1.rx.getBufferLen())
-                    atraso1 = time.time() - time0
-                    if atraso1 > 2:
-                        com1.sendData(pacotes[i])
-                        time.sleep(1)
-                        time0 = time.time()
-                        
-                   
-                    
-                #----------------------------------------------------------------------#
-                head, _, eop = carrega_pacote(com1)
-                #verificar o head
-                if head[3] == 0:
-                    print("Pacote {} enviado com sucesso" .format(i+1))
-                else:
-                    print(f"Erro com o pacote {i+1}")
-                    verifica = False
-                    break
-                
-            verifica = False
+        while recebendo:
             
+            time.sleep(0.2)
+            
+            tam = com1.rx.getBufferLen()
+            
+            if ( tam >= 15):    
+                head, payload, eop = carrega_pacote(com1)
+                tamanho_da_mensagem = head[0]
+                verifica = verifica_pack(head,eop, contador)
+                if verifica == True:
+                    lista_payload.append(payload)
+                    pacote = make_pack_server(True)
+                    com1.sendData(pacote)
+                    print(f'recebi o pacote {contador} corretamente')
+                    contador +=1 
+                elif verifica == False:
+                    pacote = make_pack_server(False)
+                    com1.sendData(pacote)
+                    print(f'recebi o pacote {contador} com erro')
+                 
+                if contador == tamanho_da_mensagem +1:
+                    recebendo = False
+        
+            else:
+                time0 = time.time()
+                print(f'o tamanho do bufer foi {tam}')
+                while (com1.rx.getBufferLen() < 15):
+                    atraso1 = time.time() - time0
+                    if atraso1 > 20:
+                        print(f'Cliente desconectou. Recebimento interrompido')
+                        recebendo = False
+
+            payload_completo = b''.join(lista_payload)
+            f = open(imageW, 'wb')
+            f.write(payload_completo)
+            #fecha arquivo de imagem
+            f.close()
+
         # Encerra comunicação
         print("-------------------------")
         print("Comunicação encerrada")
