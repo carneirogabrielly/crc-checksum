@@ -59,6 +59,7 @@ def main():
         #---------RECEBENDO AS MENSAGENS -------------
         lista_payload = []
         contador = 1
+        contador_de_erro = 0
         recebendo = True
         
         while recebendo:
@@ -70,29 +71,52 @@ def main():
             if ( tam >= 15):    
                 head, payload, eop = carrega_pacote(com1)
                 tamanho_da_mensagem = head[0]
-                verifica = verifica_pack(head,eop, contador)
+                verifica, msg = verifica_pack(head,payload, eop, contador)
                 if verifica == True:
                     lista_payload.append(payload)
                     pacote = make_pack_server(True)
                     com1.sendData(pacote)
                     print(f'recebi o pacote {contador} corretamente')
+                    #log do recebimento
+                    log_recebimento(head, 'ok')
                     contador +=1 
+                    
                 elif verifica == False:
+                    #vai identificar qual foi o erro:
+                    if msg == 'ordem':
+                        msg_erro = "ordem errada no pacote"
+                    elif msg == "tamanho_payload":
+                        msg_erro = "tamanho do payload errado"
+                    else: 
+                        msg_erro = msg
+                    ##################################
+                    print(f'recebi o pacote {contador} com erro: {msg_erro}')
+                    
+                    #log do recebimento
+                    log_recebimento(head, msg_erro)
                     pacote = make_pack_server(False)
+                    
                     com1.sendData(pacote)
-                    print(f'recebi o pacote {contador} com erro')
-                 
+                    #log da transmissão
+                    log_dado(pacote)
+                    
+                    contador_de_erro += 1
+                    #se errar muitas vezes, encerra a comunicação
+                    if contador_de_erro == 20:
+                        print("Muitas tentativas falhas. Encerrando recebimento!")
+                        recebendo = False
+                        
                 if contador == tamanho_da_mensagem +1:
                     recebendo = False
         
             else:
                 time0 = time.time()
-                print(f'o tamanho do bufer foi {tam}')
                 while (com1.rx.getBufferLen() < 15):
                     atraso1 = time.time() - time0
                     if atraso1 > 20:
                         print(f'Cliente desconectou. Recebimento interrompido')
                         recebendo = False
+                        break
 
             payload_completo = b''.join(lista_payload)
             f = open(imageW, 'wb')
