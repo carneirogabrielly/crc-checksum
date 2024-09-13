@@ -52,7 +52,7 @@ def main():
             if tam >= 1:
                 print("Recebi mensagem do cliente")
                 print("Enviando confirmação de atividade")
-                com1.sendData(make_pack_server(True))
+                com1.sendData(make_pack_server(True, 'ok'))
                 handshake = False
                 
         com1.rx.clearBuffer()
@@ -74,7 +74,7 @@ def main():
                 verifica, msg = verifica_pack(head,payload, eop, contador)
                 if verifica == True:
                     lista_payload.append(payload)
-                    pacote = make_pack_server(True)
+                    pacote = make_pack_server(True, 'ok')
                     com1.sendData(pacote)
                     print(f'recebi o pacote {contador} corretamente')
                     #log do recebimento
@@ -83,18 +83,18 @@ def main():
                     
                 elif verifica == False:
                     #vai identificar qual foi o erro:
-                    if msg == 'ordem':
+                    if (msg == 'ordem menor') or (msg== 'ordem maior'):
                         msg_erro = "ordem errada no pacote"
                     elif msg == "tamanho_payload":
                         msg_erro = "tamanho do payload errado"
                     else: 
-                        msg_erro = msg
+                        msg_erro = "crc errado: " + msg
                     ##################################
                     print(f'recebi o pacote {contador} com erro: {msg_erro}')
                     
                     #log do recebimento
                     log_recebimento(head, msg_erro)
-                    pacote = make_pack_server(False)
+                    pacote = make_pack_server(False, msg)
                     
                     com1.sendData(pacote)
                     #log da transmissão
