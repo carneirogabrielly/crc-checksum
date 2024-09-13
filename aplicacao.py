@@ -82,41 +82,48 @@ def main():
         fragmentos = fragmenta(mensagem)
         pacotes = make_pack(fragmentos)
         
+        contador = 0
         while verifica:
-            for i in range(len(pacotes)):
+            
+            while contador <= len(pacotes):
+                
                 #vou enviar o pacote
-                
-                #------------------------ erro ordem do pacote ---------------------------------#
-                # com1.sendData(pacotes[i+1])
-                com1.sendData(pacotes[i])
+                com1.sendData(pacotes[contador])
+                #vou gerar o log da transmissão
+                log_dado(pacotes[contador])
                 time.sleep(0.2)
-                #------------------------------------------------------------------------------#
-                #esperar a resposta
-                #pegar o head
-
-                #### ------------------ tentativa de A+ -------------------------------#
                 
+
+                #### Garante que o envio retoma caso haja interrupção            
                 time0 = time.time()
                 while (com1.rx.getBufferLen() < 15):
                     # print(com1.rx.getBufferLen())
                     atraso1 = time.time() - time0
                     if atraso1 > 2:
-                        com1.sendData(pacotes[i])
+                        com1.sendData(pacotes[contador])
+                        #vou gerar o log da transmissão
+                        log_dado(pacotes[contador])
                         time.sleep(1)
                         time0 = time.time()
                         
-                   
-                    
-                #----------------------------------------------------------------------#
+                ### verifica se tudo ocorreu como o esperado
                 head, _, eop = carrega_pacote(com1)
+                        
                 #verificar o head
                 if head[3] == 0:
-                    print("Pacote {} enviado com sucesso" .format(i+1))
+                    print("Pacote {} enviado com sucesso" .format(contador+1))
+                    #log do recebimento
+                    log_recebimento(head, 'ok')
+                    contador +=1
                 else:
-                    print(f"Erro com o pacote {i+1}")
-                    verifica = False
-                    break
-                
+                    print(f"Erro com o pacote {contador+1}. Enviando novamente")
+                    #log do recebimento
+                    log_recebimento(head, 'erro')
+                    com1.sendData(pacotes[contador])
+                    #vou gerar o log da transmissão
+                    log_dado(pacotes[contador])
+                    
+            #    
             verifica = False
             
         # Encerra comunicação

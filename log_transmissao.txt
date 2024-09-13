@@ -1,0 +1,317 @@
+[2024-09-12 21:13:08] envio / dado / tamanho de bytes: 65 / pacote enviado: 1 / total de pacotes: 157 / CRC: 177129 
+[2024-09-12 21:13:08] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:08] envio / dado / tamanho de bytes: 65 / pacote enviado: 2 / total de pacotes: 157 / CRC: 1289 
+[2024-09-12 21:13:08] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:08] envio / dado / tamanho de bytes: 65 / pacote enviado: 3 / total de pacotes: 157 / CRC: 92203 
+[2024-09-12 21:13:09] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:09] envio / dado / tamanho de bytes: 65 / pacote enviado: 4 / total de pacotes: 157 / CRC: 143138 
+[2024-09-12 21:13:09] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:09] envio / dado / tamanho de bytes: 65 / pacote enviado: 5 / total de pacotes: 157 / CRC: 239 
+[2024-09-12 21:13:10] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:10] envio / dado / tamanho de bytes: 65 / pacote enviado: 6 / total de pacotes: 157 / CRC: 149225 
+[2024-09-12 21:13:11] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:11] envio / dado / tamanho de bytes: 65 / pacote enviado: 7 / total de pacotes: 157 / CRC: 143231 
+[2024-09-12 21:13:11] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:11] envio / dado / tamanho de bytes: 65 / pacote enviado: 8 / total de pacotes: 157 / CRC: 88241 
+[2024-09-12 21:13:12] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:12] envio / dado / tamanho de bytes: 65 / pacote enviado: 9 / total de pacotes: 157 / CRC: 186198 
+[2024-09-12 21:13:12] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:12] envio / dado / tamanho de bytes: 65 / pacote enviado: 10 / total de pacotes: 157 / CRC: 144223 
+[2024-09-12 21:13:13] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:13] envio / dado / tamanho de bytes: 65 / pacote enviado: 11 / total de pacotes: 157 / CRC: 100211 
+[2024-09-12 21:13:13] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:13] envio / dado / tamanho de bytes: 65 / pacote enviado: 12 / total de pacotes: 157 / CRC: 184172 
+[2024-09-12 21:13:14] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:14] envio / dado / tamanho de bytes: 65 / pacote enviado: 13 / total de pacotes: 157 / CRC: 24127 
+[2024-09-12 21:13:14] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:14] envio / dado / tamanho de bytes: 65 / pacote enviado: 14 / total de pacotes: 157 / CRC: 248202 
+[2024-09-12 21:13:14] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:14] envio / dado / tamanho de bytes: 65 / pacote enviado: 15 / total de pacotes: 157 / CRC: 118141 
+[2024-09-12 21:13:15] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:15] envio / dado / tamanho de bytes: 65 / pacote enviado: 16 / total de pacotes: 157 / CRC: 90153 
+[2024-09-12 21:13:15] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:15] envio / dado / tamanho de bytes: 65 / pacote enviado: 17 / total de pacotes: 157 / CRC: 1455 
+[2024-09-12 21:13:16] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:16] envio / dado / tamanho de bytes: 65 / pacote enviado: 18 / total de pacotes: 157 / CRC: 208243 
+[2024-09-12 21:13:16] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:16] envio / dado / tamanho de bytes: 65 / pacote enviado: 19 / total de pacotes: 157 / CRC: 223155 
+[2024-09-12 21:13:17] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:17] envio / dado / tamanho de bytes: 65 / pacote enviado: 20 / total de pacotes: 157 / CRC: 206188 
+[2024-09-12 21:13:17] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:17] envio / dado / tamanho de bytes: 65 / pacote enviado: 21 / total de pacotes: 157 / CRC: 239134 
+[2024-09-12 21:13:18] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:18] envio / dado / tamanho de bytes: 65 / pacote enviado: 22 / total de pacotes: 157 / CRC: 72119 
+[2024-09-12 21:13:18] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:18] envio / dado / tamanho de bytes: 65 / pacote enviado: 23 / total de pacotes: 157 / CRC: 66135 
+[2024-09-12 21:13:19] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:19] envio / dado / tamanho de bytes: 65 / pacote enviado: 24 / total de pacotes: 157 / CRC: 13034 
+[2024-09-12 21:13:20] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:20] envio / dado / tamanho de bytes: 65 / pacote enviado: 25 / total de pacotes: 157 / CRC: 19205 
+[2024-09-12 21:13:20] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:20] envio / dado / tamanho de bytes: 65 / pacote enviado: 26 / total de pacotes: 157 / CRC: 12675 
+[2024-09-12 21:13:20] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:20] envio / dado / tamanho de bytes: 65 / pacote enviado: 27 / total de pacotes: 157 / CRC: 13735 
+[2024-09-12 21:13:21] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:21] envio / dado / tamanho de bytes: 65 / pacote enviado: 28 / total de pacotes: 157 / CRC: 158 
+[2024-09-12 21:13:21] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:21] envio / dado / tamanho de bytes: 65 / pacote enviado: 29 / total de pacotes: 157 / CRC: 13523 
+[2024-09-12 21:13:22] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:22] envio / dado / tamanho de bytes: 65 / pacote enviado: 30 / total de pacotes: 157 / CRC: 245223 
+[2024-09-12 21:13:23] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:23] envio / dado / tamanho de bytes: 65 / pacote enviado: 31 / total de pacotes: 157 / CRC: 194194 
+[2024-09-12 21:13:23] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:23] envio / dado / tamanho de bytes: 65 / pacote enviado: 32 / total de pacotes: 157 / CRC: 69205 
+[2024-09-12 21:13:23] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:23] envio / dado / tamanho de bytes: 65 / pacote enviado: 33 / total de pacotes: 157 / CRC: 239190 
+[2024-09-12 21:13:24] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:24] envio / dado / tamanho de bytes: 65 / pacote enviado: 34 / total de pacotes: 157 / CRC: 183251 
+[2024-09-12 21:13:25] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:25] envio / dado / tamanho de bytes: 65 / pacote enviado: 35 / total de pacotes: 157 / CRC: 153215 
+[2024-09-12 21:13:25] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:25] envio / dado / tamanho de bytes: 65 / pacote enviado: 36 / total de pacotes: 157 / CRC: 80165 
+[2024-09-12 21:13:26] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:26] envio / dado / tamanho de bytes: 65 / pacote enviado: 37 / total de pacotes: 157 / CRC: 29251 
+[2024-09-12 21:13:26] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:26] envio / dado / tamanho de bytes: 65 / pacote enviado: 38 / total de pacotes: 157 / CRC: 8122 
+[2024-09-12 21:13:27] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:27] envio / dado / tamanho de bytes: 65 / pacote enviado: 39 / total de pacotes: 157 / CRC: 25434 
+[2024-09-12 21:13:27] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:27] envio / dado / tamanho de bytes: 65 / pacote enviado: 40 / total de pacotes: 157 / CRC: 107224 
+[2024-09-12 21:13:28] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:28] envio / dado / tamanho de bytes: 65 / pacote enviado: 41 / total de pacotes: 157 / CRC: 148139 
+[2024-09-12 21:13:29] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:29] envio / dado / tamanho de bytes: 65 / pacote enviado: 42 / total de pacotes: 157 / CRC: 249205 
+[2024-09-12 21:13:29] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:29] envio / dado / tamanho de bytes: 65 / pacote enviado: 43 / total de pacotes: 157 / CRC: 14694 
+[2024-09-12 21:13:30] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:30] envio / dado / tamanho de bytes: 65 / pacote enviado: 44 / total de pacotes: 157 / CRC: 21593 
+[2024-09-12 21:13:31] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:31] envio / dado / tamanho de bytes: 65 / pacote enviado: 45 / total de pacotes: 157 / CRC: 18158 
+[2024-09-12 21:13:32] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:32] envio / dado / tamanho de bytes: 65 / pacote enviado: 46 / total de pacotes: 157 / CRC: 197123 
+[2024-09-12 21:13:32] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:32] envio / dado / tamanho de bytes: 65 / pacote enviado: 47 / total de pacotes: 157 / CRC: 31210 
+[2024-09-12 21:13:32] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:32] envio / dado / tamanho de bytes: 65 / pacote enviado: 48 / total de pacotes: 157 / CRC: 145188 
+[2024-09-12 21:13:33] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:33] envio / dado / tamanho de bytes: 65 / pacote enviado: 49 / total de pacotes: 157 / CRC: 106185 
+[2024-09-12 21:13:33] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:33] envio / dado / tamanho de bytes: 65 / pacote enviado: 50 / total de pacotes: 157 / CRC: 184156 
+[2024-09-12 21:13:36] envio / dado / tamanho de bytes: 65 / pacote enviado: 50 / total de pacotes: 157 / CRC: 184156 
+[2024-09-12 21:13:39] envio / dado / tamanho de bytes: 65 / pacote enviado: 50 / total de pacotes: 157 / CRC: 184156 
+[2024-09-12 21:13:42] envio / dado / tamanho de bytes: 65 / pacote enviado: 50 / total de pacotes: 157 / CRC: 184156 
+[2024-09-12 21:13:43] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:43] envio / dado / tamanho de bytes: 65 / pacote enviado: 51 / total de pacotes: 157 / CRC: 1785 
+[2024-09-12 21:13:43] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:43] envio / dado / tamanho de bytes: 65 / pacote enviado: 52 / total de pacotes: 157 / CRC: 141179 
+[2024-09-12 21:13:44] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:44] envio / dado / tamanho de bytes: 65 / pacote enviado: 53 / total de pacotes: 157 / CRC: 86124 
+[2024-09-12 21:13:44] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:44] envio / dado / tamanho de bytes: 65 / pacote enviado: 54 / total de pacotes: 157 / CRC: 6780 
+[2024-09-12 21:13:45] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:45] envio / dado / tamanho de bytes: 65 / pacote enviado: 55 / total de pacotes: 157 / CRC: 138162 
+[2024-09-12 21:13:45] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:45] envio / dado / tamanho de bytes: 65 / pacote enviado: 56 / total de pacotes: 157 / CRC: 80114 
+[2024-09-12 21:13:45] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:45] envio / dado / tamanho de bytes: 65 / pacote enviado: 57 / total de pacotes: 157 / CRC: 8659 
+[2024-09-12 21:13:46] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:46] envio / dado / tamanho de bytes: 65 / pacote enviado: 58 / total de pacotes: 157 / CRC: 124209 
+[2024-09-12 21:13:46] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:46] envio / dado / tamanho de bytes: 65 / pacote enviado: 59 / total de pacotes: 157 / CRC: 797 
+[2024-09-12 21:13:47] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:47] envio / dado / tamanho de bytes: 65 / pacote enviado: 60 / total de pacotes: 157 / CRC: 147218 
+[2024-09-12 21:13:47] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:47] envio / dado / tamanho de bytes: 65 / pacote enviado: 61 / total de pacotes: 157 / CRC: 73219 
+[2024-09-12 21:13:48] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:48] envio / dado / tamanho de bytes: 65 / pacote enviado: 62 / total de pacotes: 157 / CRC: 50246 
+[2024-09-12 21:13:48] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:48] envio / dado / tamanho de bytes: 65 / pacote enviado: 63 / total de pacotes: 157 / CRC: 4570 
+[2024-09-12 21:13:48] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:48] envio / dado / tamanho de bytes: 65 / pacote enviado: 64 / total de pacotes: 157 / CRC: 54171 
+[2024-09-12 21:13:49] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:49] envio / dado / tamanho de bytes: 65 / pacote enviado: 65 / total de pacotes: 157 / CRC: 250119 
+[2024-09-12 21:13:50] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:50] envio / dado / tamanho de bytes: 65 / pacote enviado: 66 / total de pacotes: 157 / CRC: 24462 
+[2024-09-12 21:13:50] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:50] envio / dado / tamanho de bytes: 65 / pacote enviado: 67 / total de pacotes: 157 / CRC: 37172 
+[2024-09-12 21:13:51] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:51] envio / dado / tamanho de bytes: 65 / pacote enviado: 68 / total de pacotes: 157 / CRC: 25225 
+[2024-09-12 21:13:51] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:51] envio / dado / tamanho de bytes: 65 / pacote enviado: 69 / total de pacotes: 157 / CRC: 16080 
+[2024-09-12 21:13:52] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:52] envio / dado / tamanho de bytes: 65 / pacote enviado: 70 / total de pacotes: 157 / CRC: 23127 
+[2024-09-12 21:13:53] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:53] envio / dado / tamanho de bytes: 65 / pacote enviado: 71 / total de pacotes: 157 / CRC: 258 
+[2024-09-12 21:13:53] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:53] envio / dado / tamanho de bytes: 65 / pacote enviado: 72 / total de pacotes: 157 / CRC: 13639 
+[2024-09-12 21:13:54] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:54] envio / dado / tamanho de bytes: 65 / pacote enviado: 73 / total de pacotes: 157 / CRC: 255214 
+[2024-09-12 21:13:54] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:54] envio / dado / tamanho de bytes: 65 / pacote enviado: 74 / total de pacotes: 157 / CRC: 90179 
+[2024-09-12 21:13:55] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:55] envio / dado / tamanho de bytes: 65 / pacote enviado: 75 / total de pacotes: 157 / CRC: 10387 
+[2024-09-12 21:13:55] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:55] envio / dado / tamanho de bytes: 65 / pacote enviado: 76 / total de pacotes: 157 / CRC: 198119 
+[2024-09-12 21:13:55] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:55] envio / dado / tamanho de bytes: 65 / pacote enviado: 77 / total de pacotes: 157 / CRC: 174190 
+[2024-09-12 21:13:56] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:56] envio / dado / tamanho de bytes: 65 / pacote enviado: 78 / total de pacotes: 157 / CRC: 208177 
+[2024-09-12 21:13:56] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:56] envio / dado / tamanho de bytes: 65 / pacote enviado: 79 / total de pacotes: 157 / CRC: 24468 
+[2024-09-12 21:13:57] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:57] envio / dado / tamanho de bytes: 65 / pacote enviado: 80 / total de pacotes: 157 / CRC: 5392 
+[2024-09-12 21:13:57] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:58] envio / dado / tamanho de bytes: 65 / pacote enviado: 81 / total de pacotes: 157 / CRC: 23615 
+[2024-09-12 21:13:58] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:58] envio / dado / tamanho de bytes: 65 / pacote enviado: 82 / total de pacotes: 157 / CRC: 221104 
+[2024-09-12 21:13:58] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:58] envio / dado / tamanho de bytes: 65 / pacote enviado: 83 / total de pacotes: 157 / CRC: 174147 
+[2024-09-12 21:13:59] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:13:59] envio / dado / tamanho de bytes: 65 / pacote enviado: 84 / total de pacotes: 157 / CRC: 59216 
+[2024-09-12 21:14:00] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:00] envio / dado / tamanho de bytes: 65 / pacote enviado: 85 / total de pacotes: 157 / CRC: 81173 
+[2024-09-12 21:14:00] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:00] envio / dado / tamanho de bytes: 65 / pacote enviado: 86 / total de pacotes: 157 / CRC: 116102 
+[2024-09-12 21:14:01] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:01] envio / dado / tamanho de bytes: 65 / pacote enviado: 87 / total de pacotes: 157 / CRC: 32168 
+[2024-09-12 21:14:01] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:01] envio / dado / tamanho de bytes: 65 / pacote enviado: 88 / total de pacotes: 157 / CRC: 8196 
+[2024-09-12 21:14:02] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:02] envio / dado / tamanho de bytes: 65 / pacote enviado: 89 / total de pacotes: 157 / CRC: 211126 
+[2024-09-12 21:14:02] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:02] envio / dado / tamanho de bytes: 65 / pacote enviado: 90 / total de pacotes: 157 / CRC: 240151 
+[2024-09-12 21:14:03] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:03] envio / dado / tamanho de bytes: 65 / pacote enviado: 91 / total de pacotes: 157 / CRC: 3441 
+[2024-09-12 21:14:03] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:03] envio / dado / tamanho de bytes: 65 / pacote enviado: 92 / total de pacotes: 157 / CRC: 216120 
+[2024-09-12 21:14:04] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:04] envio / dado / tamanho de bytes: 65 / pacote enviado: 93 / total de pacotes: 157 / CRC: 144247 
+[2024-09-12 21:14:04] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:04] envio / dado / tamanho de bytes: 65 / pacote enviado: 94 / total de pacotes: 157 / CRC: 53190 
+[2024-09-12 21:14:05] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:05] envio / dado / tamanho de bytes: 65 / pacote enviado: 95 / total de pacotes: 157 / CRC: 137107 
+[2024-09-12 21:14:05] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:05] envio / dado / tamanho de bytes: 65 / pacote enviado: 96 / total de pacotes: 157 / CRC: 138148 
+[2024-09-12 21:14:06] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:06] envio / dado / tamanho de bytes: 65 / pacote enviado: 97 / total de pacotes: 157 / CRC: 11839 
+[2024-09-12 21:14:06] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:06] envio / dado / tamanho de bytes: 65 / pacote enviado: 98 / total de pacotes: 157 / CRC: 117194 
+[2024-09-12 21:14:07] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:07] envio / dado / tamanho de bytes: 65 / pacote enviado: 99 / total de pacotes: 157 / CRC: 4229 
+[2024-09-12 21:14:07] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:07] envio / dado / tamanho de bytes: 65 / pacote enviado: 100 / total de pacotes: 157 / CRC: 68132 
+[2024-09-12 21:14:08] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:08] envio / dado / tamanho de bytes: 65 / pacote enviado: 101 / total de pacotes: 157 / CRC: 15226 
+[2024-09-12 21:14:09] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:09] envio / dado / tamanho de bytes: 65 / pacote enviado: 102 / total de pacotes: 157 / CRC: 253211 
+[2024-09-12 21:14:09] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:09] envio / dado / tamanho de bytes: 65 / pacote enviado: 103 / total de pacotes: 157 / CRC: 25497 
+[2024-09-12 21:14:09] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:10] envio / dado / tamanho de bytes: 65 / pacote enviado: 104 / total de pacotes: 157 / CRC: 9951 
+[2024-09-12 21:14:10] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:10] envio / dado / tamanho de bytes: 65 / pacote enviado: 105 / total de pacotes: 157 / CRC: 125133 
+[2024-09-12 21:14:10] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:10] envio / dado / tamanho de bytes: 65 / pacote enviado: 106 / total de pacotes: 157 / CRC: 131135 
+[2024-09-12 21:14:11] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:11] envio / dado / tamanho de bytes: 65 / pacote enviado: 107 / total de pacotes: 157 / CRC: 248157 
+[2024-09-12 21:14:11] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:11] envio / dado / tamanho de bytes: 65 / pacote enviado: 108 / total de pacotes: 157 / CRC: 183179 
+[2024-09-12 21:14:12] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:12] envio / dado / tamanho de bytes: 65 / pacote enviado: 109 / total de pacotes: 157 / CRC: 11256 
+[2024-09-12 21:14:12] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:12] envio / dado / tamanho de bytes: 65 / pacote enviado: 110 / total de pacotes: 157 / CRC: 79152 
+[2024-09-12 21:14:13] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:13] envio / dado / tamanho de bytes: 65 / pacote enviado: 111 / total de pacotes: 157 / CRC: 101223 
+[2024-09-12 21:14:13] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:13] envio / dado / tamanho de bytes: 65 / pacote enviado: 112 / total de pacotes: 157 / CRC: 10538 
+[2024-09-12 21:14:14] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:14] envio / dado / tamanho de bytes: 65 / pacote enviado: 113 / total de pacotes: 157 / CRC: 63134 
+[2024-09-12 21:14:14] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:14] envio / dado / tamanho de bytes: 65 / pacote enviado: 114 / total de pacotes: 157 / CRC: 220125 
+[2024-09-12 21:14:15] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:15] envio / dado / tamanho de bytes: 65 / pacote enviado: 115 / total de pacotes: 157 / CRC: 7323 
+[2024-09-12 21:14:15] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:15] envio / dado / tamanho de bytes: 65 / pacote enviado: 116 / total de pacotes: 157 / CRC: 226129 
+[2024-09-12 21:14:16] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:16] envio / dado / tamanho de bytes: 65 / pacote enviado: 117 / total de pacotes: 157 / CRC: 245110 
+[2024-09-12 21:14:16] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:16] envio / dado / tamanho de bytes: 65 / pacote enviado: 118 / total de pacotes: 157 / CRC: 701 
+[2024-09-12 21:14:17] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:17] envio / dado / tamanho de bytes: 65 / pacote enviado: 119 / total de pacotes: 157 / CRC: 23657 
+[2024-09-12 21:14:17] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:17] envio / dado / tamanho de bytes: 65 / pacote enviado: 120 / total de pacotes: 157 / CRC: 196247 
+[2024-09-12 21:14:18] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:18] envio / dado / tamanho de bytes: 65 / pacote enviado: 121 / total de pacotes: 157 / CRC: 206251 
+[2024-09-12 21:14:18] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:18] envio / dado / tamanho de bytes: 65 / pacote enviado: 122 / total de pacotes: 157 / CRC: 9479 
+[2024-09-12 21:14:19] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:19] envio / dado / tamanho de bytes: 65 / pacote enviado: 123 / total de pacotes: 157 / CRC: 232103 
+[2024-09-12 21:14:19] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:19] envio / dado / tamanho de bytes: 65 / pacote enviado: 124 / total de pacotes: 157 / CRC: 25122 
+[2024-09-12 21:14:20] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:20] envio / dado / tamanho de bytes: 65 / pacote enviado: 125 / total de pacotes: 157 / CRC: 152141 
+[2024-09-12 21:14:20] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:20] envio / dado / tamanho de bytes: 65 / pacote enviado: 126 / total de pacotes: 157 / CRC: 24481 
+[2024-09-12 21:14:21] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:21] envio / dado / tamanho de bytes: 65 / pacote enviado: 127 / total de pacotes: 157 / CRC: 3390 
+[2024-09-12 21:14:21] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:21] envio / dado / tamanho de bytes: 65 / pacote enviado: 128 / total de pacotes: 157 / CRC: 188184 
+[2024-09-12 21:14:21] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:21] envio / dado / tamanho de bytes: 65 / pacote enviado: 129 / total de pacotes: 157 / CRC: 31130 
+[2024-09-12 21:14:22] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:22] envio / dado / tamanho de bytes: 65 / pacote enviado: 130 / total de pacotes: 157 / CRC: 69215 
+[2024-09-12 21:14:23] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:23] envio / dado / tamanho de bytes: 65 / pacote enviado: 131 / total de pacotes: 157 / CRC: 13426 
+[2024-09-12 21:14:23] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:23] envio / dado / tamanho de bytes: 65 / pacote enviado: 132 / total de pacotes: 157 / CRC: 64144 
+[2024-09-12 21:14:24] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:24] envio / dado / tamanho de bytes: 65 / pacote enviado: 133 / total de pacotes: 157 / CRC: 1041 
+[2024-09-12 21:14:24] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:24] envio / dado / tamanho de bytes: 65 / pacote enviado: 134 / total de pacotes: 157 / CRC: 141190 
+[2024-09-12 21:14:25] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:25] envio / dado / tamanho de bytes: 65 / pacote enviado: 135 / total de pacotes: 157 / CRC: 245176 
+[2024-09-12 21:14:26] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:26] envio / dado / tamanho de bytes: 65 / pacote enviado: 136 / total de pacotes: 157 / CRC: 223128 
+[2024-09-12 21:14:26] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:26] envio / dado / tamanho de bytes: 65 / pacote enviado: 137 / total de pacotes: 157 / CRC: 143131 
+[2024-09-12 21:14:27] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:27] envio / dado / tamanho de bytes: 65 / pacote enviado: 138 / total de pacotes: 157 / CRC: 162178 
+[2024-09-12 21:14:27] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:27] envio / dado / tamanho de bytes: 65 / pacote enviado: 139 / total de pacotes: 157 / CRC: 93169 
+[2024-09-12 21:14:28] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:28] envio / dado / tamanho de bytes: 65 / pacote enviado: 140 / total de pacotes: 157 / CRC: 114210 
+[2024-09-12 21:14:28] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:28] envio / dado / tamanho de bytes: 65 / pacote enviado: 141 / total de pacotes: 157 / CRC: 224227 
+[2024-09-12 21:14:29] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:29] envio / dado / tamanho de bytes: 65 / pacote enviado: 142 / total de pacotes: 157 / CRC: 1443 
+[2024-09-12 21:14:29] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:29] envio / dado / tamanho de bytes: 65 / pacote enviado: 143 / total de pacotes: 157 / CRC: 8547 
+[2024-09-12 21:14:30] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:30] envio / dado / tamanho de bytes: 65 / pacote enviado: 144 / total de pacotes: 157 / CRC: 17591 
+[2024-09-12 21:14:30] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:30] envio / dado / tamanho de bytes: 65 / pacote enviado: 145 / total de pacotes: 157 / CRC: 114242 
+[2024-09-12 21:14:31] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:31] envio / dado / tamanho de bytes: 65 / pacote enviado: 146 / total de pacotes: 157 / CRC: 251190 
+[2024-09-12 21:14:32] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:32] envio / dado / tamanho de bytes: 65 / pacote enviado: 147 / total de pacotes: 157 / CRC: 125156 
+[2024-09-12 21:14:32] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:32] envio / dado / tamanho de bytes: 65 / pacote enviado: 148 / total de pacotes: 157 / CRC: 181202 
+[2024-09-12 21:14:33] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:33] envio / dado / tamanho de bytes: 65 / pacote enviado: 149 / total de pacotes: 157 / CRC: 254254 
+[2024-09-12 21:14:33] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:34] envio / dado / tamanho de bytes: 65 / pacote enviado: 150 / total de pacotes: 157 / CRC: 10713 
+[2024-09-12 21:14:34] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:34] envio / dado / tamanho de bytes: 65 / pacote enviado: 151 / total de pacotes: 157 / CRC: 141204 
+[2024-09-12 21:14:34] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:35] envio / dado / tamanho de bytes: 65 / pacote enviado: 152 / total de pacotes: 157 / CRC: 2556 
+[2024-09-12 21:14:35] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:35] envio / dado / tamanho de bytes: 65 / pacote enviado: 153 / total de pacotes: 157 / CRC: 2913 
+[2024-09-12 21:14:35] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:35] envio / dado / tamanho de bytes: 65 / pacote enviado: 154 / total de pacotes: 157 / CRC: 2991 
+[2024-09-12 21:14:36] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:36] envio / dado / tamanho de bytes: 65 / pacote enviado: 155 / total de pacotes: 157 / CRC: 10136 
+[2024-09-12 21:14:37] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:37] envio / dado / tamanho de bytes: 65 / pacote enviado: 156 / total de pacotes: 157 / CRC: 191233 
+[2024-09-12 21:14:37] recebimento / ok / tamanho de bytes: 15 
+[2024-09-12 21:14:37] envio / dado / tamanho de bytes: 49 / pacote enviado: 157 / total de pacotes: 157 / CRC: 71136 
+[2024-09-12 21:14:38] recebimento / ok / tamanho de bytes: 15 
