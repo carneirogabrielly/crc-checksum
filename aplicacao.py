@@ -84,7 +84,8 @@ def main():
         
         contador = 0
         #---------erro ordem errada de pacote--------#
-        contador += 1
+        # contador += 1
+    
         while verifica:
             
             while contador <= len(pacotes):
@@ -113,7 +114,7 @@ def main():
                         
                 #verificar o head
                 if head[3] == 0:
-                    print("Pacote {} enviado com sucesso" .format(contador+1))
+                    print("Pacote {} enviado com sucesso. Enviando o proximo" .format(contador+1))
                     #log do recebimento
                     log_recebimento(head, 'ok')
                     contador +=1
