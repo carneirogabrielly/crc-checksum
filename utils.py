@@ -81,9 +81,12 @@ def log_dado(pacote):
 def verifica_pack(head, payload, eop, numero_esperado):
     qtd_pacotes = head[0]
     numero_pacote = head[1]
-    if numero_esperado != numero_pacote:
+    if numero_esperado > numero_pacote:
         print("ERRO -- Ordem errada de pacote")
-        return False, 'ordem'
+        return False, 'ordem menor'
+    if numero_esperado < numero_pacote:
+        print("ERRO -- Ordem errada de pacote")
+        return False, 'ordem maior'
     if eop != b'\x46\x49\x4D':
         print("ERRO -- tamanho do payload diferente")
         return False, 'tamanho_payload'
@@ -100,7 +103,7 @@ def verifica_pack(head, payload, eop, numero_esperado):
     #--------------------------#
     return True, 'ok'
         
-def make_pack_server(verifica):
+def make_pack_server(verifica, msg):
     head = bytearray(12)
     eop = b'\x46\x49\x4D'
     payload = b''
@@ -109,7 +112,15 @@ def make_pack_server(verifica):
     if verifica:
         head[3] = 0
     else:
-        head[3] = 1
+        #se for ordem errada, envia 1
+        if msg == 'ordem':
+            head[3] = 1
+        #se o tamanho do payload for errado, envia 2
+        elif msg == "tamanho_payload":
+            head[3] = 2
+        #se for erro de crc, envia 3
+        else: 
+            head[3] = 3
     
     head[4], head[5] = calcula_crc(payload)
     head[6] = 15 #quantidade total de bytes

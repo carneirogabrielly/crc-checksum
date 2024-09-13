@@ -47,7 +47,7 @@ def main():
         ##### VERIFICAR SE O SERVIDOR ESTÁ VIVO #####
         print("Verificando se o servidor está vivo")
         # Espera resposta do servidor
-        pacote0 = make_pack_server(True)
+        pacote0 = make_pack_server(True, 'ok')
         com1.sendData(pacote0)
         
         verifica = True
@@ -83,6 +83,8 @@ def main():
         pacotes = make_pack(fragmentos)
         
         contador = 0
+        #---------erro ordem errada de pacote--------#
+        contador += 1
         while verifica:
             
             while contador <= len(pacotes):
@@ -119,11 +121,21 @@ def main():
                     print(f"Erro com o pacote {contador+1}. Enviando novamente")
                     #log do recebimento
                     log_recebimento(head, 'erro')
-                    com1.sendData(pacotes[contador])
-                    #vou gerar o log da transmissão
-                    log_dado(pacotes[contador])
-                    
-            #    
+                    if head[3] == 1:
+                        contador +=1
+                        com1.sendData(pacotes[contador])
+                        #vou gerar o log da transmissão
+                        log_dado(pacotes[contador])
+                    elif head[3] == 2:
+                        contador -=1
+                        com1.sendData(pacotes[contador])
+                        #vou gerar o log da transmissão
+                        log_dado(pacotes[contador])
+                    else:
+                        com1.sendData(pacotes[contador])
+                        #vou gerar o log da transmissão
+                        log_dado(pacotes[contador])
+                      
             verifica = False
             
         # Encerra comunicação
