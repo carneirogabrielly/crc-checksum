@@ -71,14 +71,17 @@ def main():
             if ( tam >= 15):    
                 head, payload, eop = carrega_pacote(com1)
                 tamanho_da_mensagem = head[0]
-                verifica, msg = verifica_pack(head,payload, eop, contador)
+                verifica, msg = verifica_pack(head, payload, eop, contador)
                 if verifica == True:
                     lista_payload.append(payload)
                     pacote = make_pack_server(True, 'ok')
                     com1.sendData(pacote)
+                    
                     print(f'recebi o pacote {contador} corretamente')
                     #log do recebimento
                     log_recebimento(head, 'ok')
+                    #log do envio
+                    log_dado(pacote)
                     contador +=1 
                     
                 elif verifica == False:

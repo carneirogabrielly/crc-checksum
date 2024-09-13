@@ -112,16 +112,17 @@ def make_pack_server(verifica, msg):
     if verifica:
         head[3] = 0
     else:
-        #se for ordem menor, envia 1
+        #se for ordem errada, envia 1
         if msg == 'ordem menor':
             head[3] = 1
-        elif msg == 'ordem maior':
+        #se o tamanho do payload for errado, envia 2
+        elif msg == "ordem maior":
             head[3] = 2
-        #se o tamanho do payload for errado, envia 3
+        #se for erro de crc, envia 3
         elif msg == "tamanho_payload":
             head[3] = 3
-        #se for erro de crc, envia 4
-        else: 
+        #erro de crc, envia 4
+        else:
             head[3] = 4
     
     head[4], head[5] = calcula_crc(payload)
